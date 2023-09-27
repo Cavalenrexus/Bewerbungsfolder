@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Bewerbungsunterlagen</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .pepe{
+            position:absolute;
+            top: 155px;
+            left: 185px;
+            height: 75vh;
+            width: 75%;
+            object-fit: cover;
+            filter:grayscale(0.5);
+        }
+
+        .container {
+            position: absolute;
+            left: 32px;
+            top:    16px;
+            font-size: 24px;
+
+        }
+        .menu-link{
+            text-decoration: none;
+            color: red;
+        
+        }
+
+        .menu-link:hover {
+            text-decoration: underline;
+
+        }
+
+
+        .logo {
+            position: absolute;
+            top: 50px;
+            left: 25px;
+        }
+    </style>
+</head>
+<body>
+    <img class="pepe" src="img/af00b7671a3f455f9ea049cc204f7308.png">
+   
+    <div class="container">
+     <a class="menu-link" href="">Über mich</a>
+     <a class="menu-link" href="">Lebenslauf</a>
+     <a class="menu-link" href="">meine Motivation</a>
+    </div>
+
+    <img src="img/5VYPS4-LogoMakr.png" class="logo">
+
+
+
+</body>
+</html>
